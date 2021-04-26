@@ -1,0 +1,15 @@
+facelib,LibraryServiceMain,30057,facelib_master RPC端口
+facelib,facelib_node,19093,facelib_node thrif端口 
+facelib,facelib_node,29093,facelib_node http端口
+face,FaceServiceMain,30055,face_master RPC端口
+face,face_node,19091,face_node thrif端口 
+face,face_node,29091,face_node http端口
+human,HumanServiceMain,30056,human_master RPC端口
+human,human_node,19092,human_node thrif端口 
+human,human_node,29092,human_node http端口
+novehicle,NoMotoVechileServiceMain,30059,novehicle_master RPC端口
+novehicle,novehicle_node,19094,novehicle_node thrif端口 
+novehicle,novehicle_node,29094,novehicle_node http端口
+vehicle,VehicleServiceMain,30058,vehicle_service_master RPC端口
+vehicle,vehicle_service_node,19096,vehicle_service_node thrif端口 
+vehicle,vehicle_service_node,29096,vehicle_service_node http端口

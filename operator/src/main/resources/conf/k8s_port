@@ -1,0 +1,11 @@
+kubelet,kubelet,6443
+etcd,etcd,2379
+etcd,etcd,2380
+kube-proxy,proxy,10249
+kube-apiserver,apiserver,10250
+kube-apiserver,apiserver,10251
+kube-apiserver,apiserver,10252
+kube-apiserver,apiserver,10255
+flannel,flannel,443
+kube-controller-manager,controller,10257
+kube-scheduler,scheduler,10259

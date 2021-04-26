@@ -1,0 +1,53 @@
+hadoop,NameNode,60070,HDFS WEB UI端口
+hadoop,NameNode,19000,高可用的HDFS RPC端口
+hadoop,DataNode,9864,HDFS WEB UI端口
+hadoop,DataNode,9866,DataNode的数据传输端口
+hadoop,DataNode,9867,Hadoop IPC端口
+hadoop,ResourceManager,8030,调度器端口
+hadoop,ResourceManager,8031,tracker端口
+hadoop,ResourceManager,8032,rm服务端口
+hadoop,ResourceManager,8033,rm管理端口
+hadoop,ResourceManager,8088,YARN的http端口
+hadoop,NodeManager,8040,NodeManager本地ipc端口
+hadoop,NodeManager,8042,NodeManagerWEB UI端口
+hadoop,NodeManager,45454,cmPort
+hadoop,NodeManager,13562,shuffle listening port
+hadoop,JournalNode,8480,JournalNode WEB UI端口
+hadoop,JournalNode,8485,JournalNode 本地ipc端口
+hadoop,JobHistoryServer,19888,JobHistoryServer WEB UI端口
+hadoop,JobHistoryServer,10020,JobHistoryServer 本地ipc端口
+zookeeper,QuorumPeerMain,2181,监听客户端的连接端口
+zookeeper,QuorumPeerMain,2888,Leader监听Follower连接端口
+zookeeper,QuorumPeerMain,3888,Leader选举端口
+Kafka,Kafka,6667,Kafka集群节点之间通信的RPC端口
+Kafka,OffsetGetterWeb,28089,kaka monitor端口
+Kafka,ProdServerStart,9000,kaka manager端口
+Hive,HiveMetaStore,9083,MetaStore端口
+Hive,HiveServer2,25000,HiveServer2端口
+Hive,HiveServer2,10002,
+ES,Elasticsearch,19200,web端口
+ES,Elasticsearch,9300,集群间通信端口
+ES,cerebro,15601,kibana web端口
+ES,cerebro,16601,cerebro web端口
+spark,Master,7077,Master内部通信服务端口
+spark,Master,19086,Master Web端口号
+spark,Worker,19085,Worker Web端口号
+spark,Worker,19089,
+spark,Worker,19088,
+spark,Master,6066,
+hbase,HMster,60010,HMaster Web端口号
+hbase,HMster,16000,HRegionServer通信端口
+hbase,HRegionServer,16030,HRegionServer Web端口号
+hbase,HRegionServer,16020,
+Flink,StandaloneSessionClusterEntrypoint,8081,JobManager web端口
+Flink,StandaloneSessionClusterEntrypoint,6123,JobManager rpc端口
+Flink,StandaloneSessionClusterEntrypoint,38893
+Flink,historyserver,8082,historyserver web UI端口
+Azkaban,AzkabanWebServer,8443,WebServer web端口
+Azkaban,AzkabanExecutorServer,12345,通信端口
+Poseidon_manage,Bootstrap,18080,nginx端口
+Poseidon_manage,Bootstrap,18005,
+Mysql,mysqld,3309,Mysql端口
+Opaq,opaq,3308,Opaq端口
+npcloud,Bootstrap,18087,web页面端口
+npcloud,Bootstrap,18088,后端端口
